@@ -1,0 +1,43 @@
+
+<html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="../build/build.css"/>
+    <script src="../build/build.js"></script><style type="text/css">.component.accordion .header {
+  background: #ccc;
+}
+.component.accordion .content {
+  background: #aaa;
+}
+</style>
+  </head>
+  <body>
+    <div class="component accordion open">
+      <div class="header">
+        <div class="title">title</div>
+      </div>
+      <div class="content">
+        <div class="text">content</div>
+      </div>
+    </div>
+    <div class="component accordion solitary">
+      <div class="header">
+        <div class="title">title</div>
+      </div>
+      <div class="content">
+        <div class="text">content</div>
+      </div>
+    </div>
+    <script>
+      var Accordion = require('accordion');
+      var $ = require('jquery')
+      
+      $(function () {
+        $('.component.accordion').each(function (i, el) {
+          window.accordion = new Accordion(el);
+        });
+      });
+    </script>
+  </body>
+</html>
