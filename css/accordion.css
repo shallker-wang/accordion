@@ -1,0 +1,4 @@
+.component.accordion >.header{place:holder}
+.component.accordion >.content{display:none}
+.component.accordion.active >.content,.component.accordion.open >.content{display:block}
+.component.accordion.close >.content{display:none}

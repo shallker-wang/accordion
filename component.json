@@ -1,0 +1,21 @@
+{
+  "name": "accordion",
+  "repo": "shallker-wang/accordion",
+  "description": "Component accordion",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/jquery": "*",
+    "shallker-wang/eventy": "*" 
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/accordion.js"
+  ],
+  "styles": [
+    "css/accordion.css"
+  ]
+}
