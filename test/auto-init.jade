@@ -1,0 +1,30 @@
+html
+  head
+    title Test
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="../build/build.css")
+    script(src="../build/build.js")
+    :stylus
+      .component.accordion
+        .header
+          background #CCC
+
+        .content
+          background #AAA
+
+  body
+    //- .solitary.open.close.active
+    .component.accordion.auto-init.open
+      .header
+        .title title
+      .content
+        .text content
+
+    .component.accordion.auto-init.solitary
+      .header
+        .title title
+      .content
+        .text content
+
+    script
+      require('accordion');
