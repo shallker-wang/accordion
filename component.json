@@ -13,7 +13,8 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "lib/accordion.js"
+    "lib/accordion.js",
+    "lib/auto-init.js"
   ],
   "styles": [
     "css/accordion.css"
